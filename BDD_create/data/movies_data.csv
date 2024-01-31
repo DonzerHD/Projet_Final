@@ -1,0 +1,201 @@
+movie_id,title,genres,release_date,poster_link
+572802,Aquaman and the Lost Kingdom,Action|Adventure|Fantasy,2023-12-20,https://image.tmdb.org/t/p/original/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg
+787699,Wonka,Comedy|Family|Fantasy,2023-12-06,https://image.tmdb.org/t/p/original/qhb1qOilapbapxWQn9jtRCMwXJF.jpg
+1022796,Wish,Animation|Family|Fantasy|Adventure,2023-11-13,https://image.tmdb.org/t/p/original/AcoVfiv1rrWOmAdpnAMnM56ki19.jpg
+940551,Migration,Animation|Adventure|Comedy|Family|Action,2023-12-06,https://image.tmdb.org/t/p/original/ldfCF9RhR40mppkzmftxapaHeTo.jpg
+609681,The Marvels,Science Fiction|Adventure|Action,2023-11-08,https://image.tmdb.org/t/p/original/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg
+1212073,Sixty Minutes,Action|Drama,2024-01-19,https://image.tmdb.org/t/p/original/PNlmsYn9ZhgnPQupUEgoP7H73X.jpg
+965571,Patriots Time,Action|War,2022-04-28,https://image.tmdb.org/t/p/original/A4QM6oF4UNNhQh1f9pRdXvyKW5s.jpg
+1058694,Radical,Drama,2023-10-19,https://image.tmdb.org/t/p/original/eSatbygYZp8ooprBHZdb6GFZxGB.jpg
+799155,Attack,Action|Science Fiction|Thriller,2022-04-01,https://image.tmdb.org/t/p/original/5jGKbYuZtdxSNOocI6ZziQeiY4n.jpg
+955916,Lift,Action|Comedy|Crime|Drama,2024-01-10,https://image.tmdb.org/t/p/original/gma8o1jWa6m0K1iJ9TzHIiFyTtI.jpg
+753342,Napoleon,History|War|Drama,2023-11-22,https://image.tmdb.org/t/p/original/vcZWJGvB5xydWuUO1vaTLI82tGi.jpg
+906126,Society of the Snow,Drama|History,2023-12-13,https://image.tmdb.org/t/p/original/2e853FDVSIso600RqAMunPxiZjq.jpg
+866398,The Beekeeper,Action|Thriller|Drama,2024-01-10,https://image.tmdb.org/t/p/original/A7EByudX0eOzlkQ2FIbogzyazm2.jpg
+1072790,Anyone But You,Comedy|Romance,2023-12-21,https://image.tmdb.org/t/p/original/yRt7MGBElkLQOYRvLTT1b3B1rcp.jpg
+848187,Role Play,Action|Comedy|Romance,2023-12-14,https://image.tmdb.org/t/p/original/7MhXiTmTl16LwXNPbWCmqxj7UxH.jpg
+508883,The Boy and the Heron,Animation|Adventure|Fantasy,2023-07-14,https://image.tmdb.org/t/p/original/jDQPkgzerGophKRRn7MKm071vCU.jpg
+792307,Poor Things,Science Fiction|Romance|Comedy,2023-12-07,https://image.tmdb.org/t/p/original/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg
+872585,Oppenheimer,Drama|History,2023-07-19,https://image.tmdb.org/t/p/original/ptpr0kGAckfQkJeJIt8st5dglvd.jpg
+982940,Due Justice,Crime|Thriller|Action,2023-11-24,https://image.tmdb.org/t/p/original/35Uef7fz9ctYbJLXbJBCqvtttEQ.jpg
+1028703,The OctoGames,Thriller|Action|Horror,2022-10-07,https://image.tmdb.org/t/p/original/qGz5rffXhegQH5PGUDiObqoOt06.jpg
+933131,Badland Hunters,Action|Science Fiction|Drama,2024-01-26,https://image.tmdb.org/t/p/original/zVMyvNowgbsBAL6O6esWfRpAcOb.jpg
+899445,Deep Fear,Action|Mystery|Thriller|Horror,2023-10-18,https://image.tmdb.org/t/p/original/ms1omYCnhnO3eDOI88tfiy6SaoX.jpg
+926599,All Fun and Games,Horror|Thriller,2023-08-30,https://image.tmdb.org/t/p/original/1m0CTxlotr8H8GaoioL2IJHL1gW.jpg
+1230393,Monsters 103 Mercies Dragon Damnation,Animation|Action|Fantasy|Adventure,2024-01-21,https://image.tmdb.org/t/p/original/yG8QKnaiz7JoIMh3oxdm0JJN6IG.jpg
+1029575,The Family Plan,Action|Comedy,2023-12-14,https://image.tmdb.org/t/p/original/a6syn9qcU4a54Lmi3JoIr1XvhFU.jpg
+385687,Fast X,Action|Crime|Thriller,2023-05-17,https://image.tmdb.org/t/p/original/fiVW06jE7z9YnO4trhaMEdclSiC.jpg
+1211957,The Painter,Action|Thriller,2024-01-05,https://image.tmdb.org/t/p/original/UZ0ydgbXtnrq8xZCI5lHVXVcH9.jpg
+918692,Granit,Action|War,2021-12-29,https://image.tmdb.org/t/p/original/zLJn4U2qlWIzlFP5SsyFJUDQjfs.jpg
+810271,The Resort,Horror,2021-04-30,https://image.tmdb.org/t/p/original/bXZUVJP8Fr3RId7SSsV4RXvjnIh.jpg
+1214314,One More Shot,Action|Thriller,2024-01-12,https://image.tmdb.org/t/p/original/nQ1BQg4yMdlYSHvHZgwladzy7EF.jpg
+466420,Killers of the Flower Moon,Crime|History|Drama,2023-10-18,https://image.tmdb.org/t/p/original/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg
+695721,The Hunger Games: The Ballad of Songbirds & Snakes,Drama|Science Fiction|Action,2023-11-15,https://image.tmdb.org/t/p/original/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg
+346698,Barbie,Comedy|Adventure|Fantasy,2023-07-19,https://image.tmdb.org/t/p/original/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg
+924763,Weekend Warriors,Action|Thriller,2021-04-01,https://image.tmdb.org/t/p/original/uGyZZODYqcYINRPIgaHbMmawQ2I.jpg
+863851,Mírame,Horror,2021-08-20,https://image.tmdb.org/t/p/original/cF0pwv6ce82pPVCIEzB5ArnuIZx.jpg
+1155089,Justice League: Crisis on Infinite Earths Part One,Animation|Science Fiction|Action,2024-01-09,https://image.tmdb.org/t/p/original/zR6C66EDklgTPLHRSmmMt5878MR.jpg
+901362,Trolls Band Together,Animation|Family|Music|Fantasy|Comedy,2023-10-12,https://image.tmdb.org/t/p/original/bkpPTZUdq31UGDovmszsg2CchiI.jpg
+603692,John Wick: Chapter 4,Action|Thriller|Crime,2023-03-22,https://image.tmdb.org/t/p/original/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg
+897087,Freelance,Action|Comedy,2023-10-05,https://image.tmdb.org/t/p/original/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg
+1216784,Sunrise,Horror|Thriller,2024-01-19,https://image.tmdb.org/t/p/original/4aRvg2ybz646gciX5M6qaclunC2.jpg
+667538,Transformers: Rise of the Beasts,Action|Adventure|Science Fiction,2023-06-06,https://image.tmdb.org/t/p/original/gPbM0MK8CP8A174rmUwGsADNYKD.jpg
+940721,Godzilla Minus One,Science Fiction|Horror|Action,2023-11-03,https://image.tmdb.org/t/p/original/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg
+891699,Silent Night,Action|Adventure|Thriller,2023-11-30,https://image.tmdb.org/t/p/original/nJCP1ZNTPKlZ7S0Kv3gbmuraAT4.jpg
+1071215,Thanksgiving,Horror|Mystery|Thriller,2023-11-16,https://image.tmdb.org/t/p/original/f5f3TEVst1nHHyqgn7Z3tlwnBIH.jpg
+848326,Rebel Moon - Part One: A Child of Fire,Science Fiction|Drama|Action,2023-12-15,https://image.tmdb.org/t/p/original/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg
+569094,Spider-Man: Across the Spider-Verse,Animation|Action|Adventure|Science Fiction,2023-05-31,https://image.tmdb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg
+502356,The Super Mario Bros. Movie,Animation|Family|Adventure|Fantasy|Comedy,2023-04-05,https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg
+76600,Avatar: The Way of Water,Science Fiction|Adventure|Action,2022-12-14,https://image.tmdb.org/t/p/original/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg
+927107,The Bricklayer,Action|Thriller,2023-12-14,https://image.tmdb.org/t/p/original/36pYugctLa70NmwMEgXTR1G31Kq.jpg
+299054,Expend4bles,Action|Adventure|Thriller,2023-09-15,https://image.tmdb.org/t/p/original/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg
+854006,Ox-Head Village,Horror|Drama,2022-02-18,https://image.tmdb.org/t/p/original/vwxYJyhNBg5uLByXe8fyIdO0YqD.jpg
+1010581,My Fault,Drama|Romance,2023-06-08,https://image.tmdb.org/t/p/original/w46Vw536HwNnEzOa7J24YH9DPRS.jpg
+678512,Sound of Freedom,Action|Drama,2023-07-03,https://image.tmdb.org/t/p/original/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg
+1075794,Leo,Animation|Comedy|Family,2023-11-17,https://image.tmdb.org/t/p/original/pD6sL4vntUOXHmuvJPPZAgvyfd9.jpg
+744857,When Evil Lurks,Horror|Thriller,2023-10-05,https://image.tmdb.org/t/p/original/2gimJ06p9tVR4P6jacZWcLcNEwA.jpg
+507089,Five Nights at Freddy's,Horror|Mystery,2023-10-25,https://image.tmdb.org/t/p/original/7BpNtNfxuocYEVREzVMO75hso1l.jpg
+843380,Dead for a Dollar,Western|Thriller|Action,2022-09-30,https://image.tmdb.org/t/p/original/1AnXfjxFqMsQmUPSvt9YxUJhfFw.jpg
+79026,El padrino: The Latin Godfather,Action|Crime|Drama,2004-09-27,https://image.tmdb.org/t/p/original/10J7EQ8WvMYku8lcZrLewV2Ko4I.jpg
+575264,Mission: Impossible - Dead Reckoning Part One,Action|Thriller,2023-07-08,https://image.tmdb.org/t/p/original/NNxYkU70HPurnNCSiCjYAmacwm.jpg
+852445,Acid,Drama|Fantasy,2023-09-20,https://image.tmdb.org/t/p/original/91vF7SNB2tqsSultsmEn8tJYh4l.jpg
+1072342,Night Swim,Horror|Thriller,2024-01-03,https://image.tmdb.org/t/p/original/gSkfBGdxdialBMM7P02V4hcI6Ij.jpg
+506517,My Grandpa is an Alien,Adventure|Family|Science Fiction,2019-03-21,https://image.tmdb.org/t/p/original/bWXH1kEDlLkHmn2R0udaspgVQSJ.jpg
+834347,Wired Shut,Horror|Thriller,2021-08-30,https://image.tmdb.org/t/p/original/6XN45BW4mICXrEIGdCC2WKlSy1.jpg
+816741,Grey Eyes,Action|Science Fiction,2018-05-11,https://image.tmdb.org/t/p/original/5InVYa7CcbGioPvQ6ig4Lz4iLlR.jpg
+976573,Elemental,Animation|Comedy|Family|Fantasy|Romance|Adventure,2023-06-14,https://image.tmdb.org/t/p/original/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg
+670292,The Creator,Action|Adventure|Science Fiction,2023-09-27,https://image.tmdb.org/t/p/original/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg
+101251,El Padrino II: Border Intrusion,Crime,2008-01-01,https://image.tmdb.org/t/p/original/yHtPjWgO3wCnY21qKL3NjbBbthx.jpg
+615656,Meg 2: The Trench,Action|Science Fiction|Horror,2023-08-02,https://image.tmdb.org/t/p/original/4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg
+1008042,Talk to Me,Horror|Thriller,2023-07-26,https://image.tmdb.org/t/p/original/kdPMUMJzyYAc4roD52qavX0nLIC.jpg
+845387,maboroshi,Animation|Drama|Romance|Fantasy,2023-09-15,https://image.tmdb.org/t/p/original/7kzoPEasqFZGPGHj1imsLtTM20k.jpg
+491854,Foxtrot Six,Action|Science Fiction,2019-02-21,https://image.tmdb.org/t/p/original/o7c8FKCZFIrLKrZSzgqufvNo4mr.jpg
+365620,Ferrari,Drama|History,2023-12-14,https://image.tmdb.org/t/p/original/xBFyJHvXCTgf9Vmq5uCnXRHrMQ4.jpg
+926393,The Equalizer 3,Action|Thriller|Crime,2023-08-30,https://image.tmdb.org/t/p/original/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg
+621587,Next Goal Wins,Comedy|Drama,2023-11-16,https://image.tmdb.org/t/p/original/xTQCL1zGugIck8MgvJ2lXSrxENR.jpg
+298618,The Flash,Action|Adventure|Science Fiction,2023-06-13,https://image.tmdb.org/t/p/original/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg
+671,Harry Potter and the Philosopher's Stone,Adventure|Fantasy,2001-11-16,https://image.tmdb.org/t/p/original/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg
+980489,Gran Turismo,Adventure|Action|Drama,2023-08-09,https://image.tmdb.org/t/p/original/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg
+634649,Spider-Man: No Way Home,Action|Adventure|Science Fiction,2021-12-15,https://image.tmdb.org/t/p/original/5weKu49pzJCt06OPpjvT80efnQj.jpg
+299536,Avengers: Infinity War,Adventure|Action|Science Fiction,2018-04-25,https://image.tmdb.org/t/p/original/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg
+1007826,The Underdoggs,Comedy,2024-01-25,https://image.tmdb.org/t/p/original/wj1VRcVsh39nkxLkZP8tuGd96tc.jpg
+1061855,Richard the Stork and the Mystery of the Great Jewel,Animation|Adventure|Comedy|Family,2023-03-23,https://image.tmdb.org/t/p/original/i2ITl0QHxZ4S0u12NK7Ddtm463k.jpg
+684684,Shortcut,Horror|Adventure|Fantasy,2020-09-25,https://image.tmdb.org/t/p/original/5XSbsZS5rQ4VvepXyMBqbpSi2mD.jpg
+845861,State of Siege: Temple Attack,Action|Drama,2021-07-09,https://image.tmdb.org/t/p/original/ckghAN8FuYY2icUyJjVkKXiBrek.jpg
+1053592,All the Names of God,Drama|Action|Thriller,2023-09-15,https://image.tmdb.org/t/p/original/n15gfcgwV0LVPSobrayZcFHcwN6.jpg
+214756,Ted 2,Comedy|Fantasy,2015-06-25,https://image.tmdb.org/t/p/original/qMOt0uy1x49OBW0jzodgRM9waW0.jpg
+1050035,Monster,Drama|Thriller,2023-06-02,https://image.tmdb.org/t/p/original/uCxeoP5DKOt5ovEsY4jerxwbcbe.jpg
+753453,V/H/S/94,Horror,2021-09-26,https://image.tmdb.org/t/p/original/9fSogEkqDfJQTuGHsTFloQz3Tw8.jpg
+1170824,American Star,Thriller|Mystery|Drama,2024-01-26,https://image.tmdb.org/t/p/original/l3UO18fD7rSPRw8AYB8d19zwxUb.jpg
+915935,Anatomy of a Fall,Drama|Mystery|Crime,2023-08-13,https://image.tmdb.org/t/p/original/kQs6keheMwCxJxrzV83VUwFtHkB.jpg
+118,Charlie and the Chocolate Factory,Adventure|Comedy|Family|Fantasy,2005-07-13,https://image.tmdb.org/t/p/original/wfGfxtBkhBzQfOZw4S8IQZgrH0a.jpg
+315162,Puss in Boots: The Last Wish,Adventure|Fantasy|Animation|Comedy|Family|Action,2022-12-07,https://image.tmdb.org/t/p/original/kuf6dutpsT0vSVehic3EZIqkOBt.jpg
+877013,Hell Hath No Fury,Action|War,2021-11-05,https://image.tmdb.org/t/p/original/wltdRZfeKDux9yKThlGKwjWhUil.jpg
+1026436,Miller's Girl,Drama|Thriller,2024-01-18,https://image.tmdb.org/t/p/original/aygFQeDmmtlArzo8epmsOg9mz9f.jpg
+447365,Guardians of the Galaxy Vol. 3,Science Fiction|Adventure|Action,2023-05-03,https://image.tmdb.org/t/p/original/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg
+893723,PAW Patrol: The Mighty Movie,Animation|Family|Action|Science Fiction|Comedy|Drama|Adventure,2023-09-21,https://image.tmdb.org/t/p/original/aTvePCU7exLepwg5hWySjwxojQK.jpg
+779047,Us Again,Animation|Drama|Family,2021-03-05,https://image.tmdb.org/t/p/original/zKnenwvQB6xA4mxc8zxL2S8qVbR.jpg
+798141,Doors,Science Fiction,2021-03-23,https://image.tmdb.org/t/p/original/pGPUXyhQTOqskKdDOD3Fmicqfc0.jpg
+951546,Reign of Chaos,Action|Horror|Fantasy,2022-04-12,https://image.tmdb.org/t/p/original/nTMmpvR9TyV631tpFr4FtYxG0FC.jpg
+361743,Top Gun: Maverick,Action|Drama,2022-05-24,https://image.tmdb.org/t/p/original/62HCnUTziyWcpDaBO2i1DX17ljH.jpg
+9912,The World's Fastest Indian,Drama|Adventure|History,2005-10-12,https://image.tmdb.org/t/p/original/i7obsEYXjo725H9vneFqxxUiZw7.jpg
+949567,The Exorcism of Hannah Stevenson,Fantasy|Horror,2022-03-14,https://image.tmdb.org/t/p/original/so05qY0sDY0348bRg0tK9tSnnEq.jpg
+934194,Slash/Back,Science Fiction|Action|Thriller|Horror,2022-06-24,https://image.tmdb.org/t/p/original/fmmRFQtsRrNOpmcfoxVIyE1LxxT.jpg
+829557,365 Days: This Day,Romance|Drama,2022-04-27,https://image.tmdb.org/t/p/original/7qU0SOVcQ8BTJLodcAlulUAG16C.jpg
+888001,River of Fear,Thriller|Mystery|Horror,2022-04-21,https://image.tmdb.org/t/p/original/8Q0sJtvbhkPJ1jXzvYW7qzgcupk.jpg
+646749,Yu Pui Tsuen,,1986-12-12,https://image.tmdb.org/t/p/original/5fGULTfD8pcbI8N8YExRKgy4PGn.jpg
+157336,Interstellar,Adventure|Drama|Science Fiction,2014-11-05,https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg
+504148,The Serpent,Action,2021-01-28,https://image.tmdb.org/t/p/original/5OSfx8jJrjHWO9SU3Wtfd7Rs8PF.jpg
+968051,The Nun II,Horror|Mystery|Thriller,2023-09-06,https://image.tmdb.org/t/p/original/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg
+565770,Blue Beetle,Action|Science Fiction|Adventure,2023-08-16,https://image.tmdb.org/t/p/original/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg
+672,Harry Potter and the Chamber of Secrets,Adventure|Fantasy,2002-11-13,https://image.tmdb.org/t/p/original/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg
+920081,Megaboa,Action|Horror|Science Fiction,2021-11-26,https://image.tmdb.org/t/p/original/sAnAMv3eyQiGI1z2k8NsvH0Y6r5.jpg
+79443,The Smurfs: A Christmas Carol,Comedy|Family|Animation,2011-12-02,https://image.tmdb.org/t/p/original/1gjT65lS29BbclJlmGvtwnT7hya.jpg
+820525,After Everything,Romance|Drama,2023-09-13,https://image.tmdb.org/t/p/original/uQxjZGU6rxSPSMeAJPJQlmfV3ys.jpg
+673593,Mean Girls,Comedy,2024-01-10,https://image.tmdb.org/t/p/original/fbbj3viSUDEGT1fFFMNpHP1iUjw.jpg
+520758,Chicken Run: Dawn of the Nugget,Animation|Adventure|Comedy|Family,2023-12-08,https://image.tmdb.org/t/p/original/uR03YFvc7rZg8Yb1uOKekIS084A.jpg
+889675,The Pod Generation,Science Fiction|Comedy|Romance|Drama,2023-08-11,https://image.tmdb.org/t/p/original/bJYYpb3dQUgJOavKUk8lkBFQhCS.jpg
+729854,Concrete Utopia,Thriller|Science Fiction|Drama,2023-08-09,https://image.tmdb.org/t/p/original/4l68KHxnPSow8MvnGUpjqLzJtLJ.jpg
+951491,Saw X,Horror|Thriller|Mystery,2023-09-27,https://image.tmdb.org/t/p/original/aQPeznSu7XDTrrdCtT5eLiu52Yu.jpg
+673,Harry Potter and the Prisoner of Azkaban,Adventure|Fantasy,2004-05-31,https://image.tmdb.org/t/p/original/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg
+928833,Craig Before the Creek,Animation|Family|TV Movie|Adventure|Comedy|Fantasy,2023-12-11,https://image.tmdb.org/t/p/original/4gDNAsYbCOP3z4xyM0IhbPl5Rq3.jpg
+335977,Indiana Jones and the Dial of Destiny,Adventure|Action,2023-06-28,https://image.tmdb.org/t/p/original/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg
+565373,Koko-di Koko-da,Horror|Comedy|Fantasy,2019-08-23,https://image.tmdb.org/t/p/original/eNHpioGHmg1d8EFsEH0KAbRNUGm.jpg
+930564,Saltburn,Drama|Comedy|Thriller,2023-11-16,https://image.tmdb.org/t/p/original/qjhahNLSZ705B5JP92YMEYPocPz.jpg
+762430,Retribution,Action|Thriller|Crime,2023-08-23,https://image.tmdb.org/t/p/original/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg
+859235,Coup de chance,Comedy|Drama|Romance,2023-09-15,https://image.tmdb.org/t/p/original/v1QBRNlQtNWsZrMo6rN2DCw017b.jpg
+438631,Dune,Science Fiction|Adventure,2021-09-15,https://image.tmdb.org/t/p/original/d5NXSklXo0qyIYkgV94XAgMIckC.jpg
+116776,Dragon Ball: Mystical Adventure,Action|Animation,1988-07-09,https://image.tmdb.org/t/p/original/5aXG0B3TYTpQsodXzvYCkKQfpB1.jpg
+983507,Good Boy,Horror|Thriller,2022-06-03,https://image.tmdb.org/t/p/original/9DPG1gxLwV2oyFdHq3SnISsWbse.jpg
+20352,Despicable Me,Family|Animation|Comedy,2010-07-08,https://image.tmdb.org/t/p/original/9lOloREsAhBu0pEtU0BgeR1rHyo.jpg
+414906,The Batman,Crime|Mystery|Thriller,2022-03-01,https://image.tmdb.org/t/p/original/74xTEgt7R36Fpooo50r9T25onhq.jpg
+786573,HellKat,Action|Thriller|Horror,2021-02-02,https://image.tmdb.org/t/p/original/sNUQVeU78lVomwC7bR8SyCRnjdg.jpg
+411,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",Adventure|Family|Fantasy,2005-12-07,https://image.tmdb.org/t/p/original/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg
+566810,The Dark Kingdom,Fantasy|Adventure|Science Fiction|Action,2018-11-26,https://image.tmdb.org/t/p/original/4kWGZYrTqBRsPIsnZmV3DzJtTi9.jpg
+447277,The Little Mermaid,Adventure|Family|Fantasy|Romance,2023-05-18,https://image.tmdb.org/t/p/original/ym1dxyOk4jFcSl4Q2zmRrA5BEEN.jpg
+968868,Pretty Guardian Sailor Moon Cosmos The Movie,Animation,2023-06-09,https://image.tmdb.org/t/p/original/7fwVpF5gXnFkfM5FyhFRMt199n2.jpg
+772,Home Alone 2: Lost in New York,Comedy|Family|Adventure,1992-11-19,https://image.tmdb.org/t/p/original/uuitWHpJwxD1wruFl2nZHIb4UGN.jpg
+674,Harry Potter and the Goblet of Fire,Adventure|Fantasy,2005-11-16,https://image.tmdb.org/t/p/original/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg
+72105,Ted,Comedy|Fantasy,2012-06-29,https://image.tmdb.org/t/p/original/1QVZXQQHCEIj8lyUhdBYd2qOYtq.jpg
+568124,Encanto,Animation|Comedy|Family|Fantasy,2021-10-13,https://image.tmdb.org/t/p/original/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg
+1020006,Priscilla,Romance|Drama,2023-10-27,https://image.tmdb.org/t/p/original/uDCeELWWpsNq7ErM61Yuq70WAE9.jpg
+808,Shrek,Animation|Comedy|Fantasy|Adventure|Family,2001-05-18,https://image.tmdb.org/t/p/original/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg
+507086,Jurassic World Dominion,Adventure|Action|Science Fiction,2022-06-01,https://image.tmdb.org/t/p/original/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg
+216015,Fifty Shades of Grey,Drama|Romance|Thriller,2015-02-11,https://image.tmdb.org/t/p/original/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg
+807172,The Exorcist: Believer,Horror,2023-10-04,https://image.tmdb.org/t/p/original/qVKirUdmoex8SdfUk8WDDWwrcCh.jpg
+297802,Aquaman,Action|Adventure|Fantasy,2018-12-07,https://image.tmdb.org/t/p/original/zdw7Wf97vsQ0YnGomxDqfcEdUjX.jpg
+12445,Harry Potter and the Deathly Hallows: Part 2,Fantasy|Adventure,2011-07-12,https://image.tmdb.org/t/p/original/c54HpQmuwXjHq2C9wmoACjxoom3.jpg
+937746,Io Capitano,Adventure|Drama,2023-09-07,https://image.tmdb.org/t/p/original/3XhtyFEGrRjvgz11OEWZtXsGSV1.jpg
+659495,Good Mother 2,Romance,2018-10-19,https://image.tmdb.org/t/p/original/buCKO8y7TUmvS4nErMz0RdiWjRI.jpg
+1035057,Three Day Millionaire,Comedy|Crime,2022-11-25,https://image.tmdb.org/t/p/original/oYTsJP7Nhqt20VTFrsC7tVxOL2v.jpg
+956262,The Kitchen,Science Fiction|Thriller|Drama|Adventure,2023-10-15,https://image.tmdb.org/t/p/original/tV0hK1BiqYrYlehChv4WJXIWgmZ.jpg
+726209,Leave the World Behind,Drama|Mystery|Thriller|Science Fiction,2023-11-22,https://image.tmdb.org/t/p/original/29rhl1xopxA7JlGVVsf1UHfYPvN.jpg
+866038,Apache Junction,Western|Action|Crime,2021-09-24,https://image.tmdb.org/t/p/original/sYkElIUzn9NkVFufpc2oSQlfVsS.jpg
+829560,The Next 365 Days,Romance|Drama,2022-08-19,https://image.tmdb.org/t/p/original/6FsGeIp7heHm5eh4tIxTzHIRxmt.jpg
+767,Harry Potter and the Half-Blood Prince,Adventure|Fantasy,2009-07-15,https://image.tmdb.org/t/p/original/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg
+12444,Harry Potter and the Deathly Hallows: Part 1,Adventure|Fantasy,2010-11-17,https://image.tmdb.org/t/p/original/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg
+581528,"The Gangster, the Cop, the Devil",Crime|Action|Thriller,2019-05-15,https://image.tmdb.org/t/p/original/oHlM4abRm6BzrRcz9Nup1uidw9H.jpg
+939335,Muzzle,Action|Crime|Drama|Thriller,2023-09-29,https://image.tmdb.org/t/p/original/AsM1H8DfaNo7bRu4q76MaVRRbIY.jpg
+879957,Wyrmwood: Apocalypse,Action|Horror,2022-02-10,https://image.tmdb.org/t/p/original/5FejR8s7E1BYkWRFZ9sPTNHKkxT.jpg
+851644,20th Century Girl,Romance|Drama,2022-10-06,https://image.tmdb.org/t/p/original/od22ftNnyag0TTxcnJhlsu3aLoU.jpg
+492258,Cocaine Godmother,Drama|TV Movie|Crime,2017-11-12,https://image.tmdb.org/t/p/original/BYD6DT0dwtLFXkuCk7SqfAZrqv.jpg
+19995,Avatar,Action|Adventure|Fantasy|Science Fiction,2009-12-15,https://image.tmdb.org/t/p/original/kyeqWdyUXW608qlYkRqosgbbJyK.jpg
+510318,Buñuel in the Labyrinth of the Turtles,Animation|Drama|History,2019-04-18,https://image.tmdb.org/t/p/original/oHYRYgEcpjD6tXRxMr5xisjJCU4.jpg
+1032664,The Winter Witch,Horror,2022-12-26,https://image.tmdb.org/t/p/original/qMT9xKQny3eCFrYpVE2oqM6GKMK.jpg
+13313,Beauty and the Beast: The Enchanted Christmas,Animation|Family|Fantasy,1997-11-11,https://image.tmdb.org/t/p/original/qxtpbcbf6KEIHzLetWZOVGJT2lv.jpg
+781732,Animal,Action|Crime|Drama,2023-12-01,https://image.tmdb.org/t/p/original/iuFu6PvDUPhOhpyZqE14emxUfpH.jpg
+508947,Turning Red,Animation|Family|Comedy|Fantasy,2022-03-10,https://image.tmdb.org/t/p/original/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg
+675,Harry Potter and the Order of the Phoenix,Adventure|Fantasy,2007-07-08,https://image.tmdb.org/t/p/original/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg
+238,The Godfather,Drama|Crime,1972-03-14,https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg
+853387,Lord of Misrule,Horror,2023-10-26,https://image.tmdb.org/t/p/original/eCNJuGsCNdf2yf4F3UcDg1WZTbo.jpg
+447362,Life in a Year,Drama|Romance,2020-11-27,https://image.tmdb.org/t/p/original/bP7u19opmHXYeTCUwGjlLldmUMc.jpg
+1059126,Bring Him to Me,Crime|Thriller,2023-11-02,https://image.tmdb.org/t/p/original/5l6k6oxclDBpAZOkCSs2V6F3Ldf.jpg
+759213,Captive,Thriller|Horror,2020-10-30,https://image.tmdb.org/t/p/original/8ofszdXTti3my1RGvyruu3rl9Hc.jpg
+93456,Despicable Me 2,Animation|Comedy|Family,2013-06-26,https://image.tmdb.org/t/p/original/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg
+1954,The Butterfly Effect,Science Fiction|Thriller,2004-01-17,https://image.tmdb.org/t/p/original/ea5iv7TWMh18fOKoRGgmtcg85Gx.jpg
+438695,Sing 2,Animation|Family|Music|Comedy,2021-12-01,https://image.tmdb.org/t/p/original/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg
+383498,Deadpool 2,Action|Comedy|Adventure,2018-05-10,https://image.tmdb.org/t/p/original/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg
+9453,Caligula,Drama|History|Romance,1979-08-14,https://image.tmdb.org/t/p/original/4N4l873TVreuaR4FVpvaL2gfQ0N.jpg
+744276,After Ever Happy,Romance|Drama,2022-08-24,https://image.tmdb.org/t/p/original/moogpu8rNkEjTgFyLXwhPghft5w.jpg
+496450,"Miraculous: Ladybug & Cat Noir, The Movie",Animation|Fantasy|Action|Romance|Family,2023-07-05,https://image.tmdb.org/t/p/original/dQNJ8SdCMn3zWwHzzQD2xrphR1X.jpg
+335984,Blade Runner 2049,Science Fiction|Drama,2017-10-04,https://image.tmdb.org/t/p/original/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg
+370464,The Masked Saint,Crime|Action,2016-01-08,https://image.tmdb.org/t/p/original/zlT1Tc9hA1Ntye5hr7Gxos9U6U9.jpg
+1151534,Nowhere,Thriller|Drama,2023-09-29,https://image.tmdb.org/t/p/original/cVxIX8JJJB179zh7wcUt0A6TpQQ.jpg
+1209770,Bedspacer,Thriller|Drama,2024-01-05,https://image.tmdb.org/t/p/original/5LJ9V0KBPwdV0uflsddMrX4Ll3v.jpg
+278,The Shawshank Redemption,Drama|Crime,1994-09-23,https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg
+252,Willy Wonka & the Chocolate Factory,Family|Fantasy|Comedy,1971-06-29,https://image.tmdb.org/t/p/original/vmpsZkrs4Uvkp9r1atL8B3frA63.jpg
+744275,After We Fell,Romance|Drama,2021-09-01,https://image.tmdb.org/t/p/original/dU4HfnTEJDf9KvxGS9hgO7BVeju.jpg
+870098,Tre di troppo,Comedy|Romance,2023-01-01,https://image.tmdb.org/t/p/original/kUdehyzniVTCupwxOt5zxHJWsec.jpg
+24428,The Avengers,Science Fiction|Action|Adventure,2012-04-25,https://image.tmdb.org/t/p/original/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg
+816707,Alimañas,Comedy,2023-10-27,https://image.tmdb.org/t/p/original/aGQ9AAytrwR30dqSS0rgfcbzoEC.jpg
+574089,Loop,Animation|Family,2019-01-10,https://image.tmdb.org/t/p/original/pUA0cnrZnm8IRx1NMcr9FiOsAI7.jpg
+505642,Black Panther: Wakanda Forever,Action|Adventure|Science Fiction,2022-11-09,https://image.tmdb.org/t/p/original/sv1xJUazXeYqALzczSZ3O6nkH75.jpg
+832074,Tourist,Action,2021-05-19,https://image.tmdb.org/t/p/original/5kB3jFJXFfwRFdPe341t7Pe55wT.jpg
+479753,Shockwave: Countdown to Disaster,Action|Science Fiction|Adventure|Thriller,2017-09-02,https://image.tmdb.org/t/p/original/sBD608VF4TcFHmP7SuC0OcvZQ0b.jpg
+337167,Fifty Shades Freed,Drama|Romance,2018-01-17,https://image.tmdb.org/t/p/original/9ZedQHPQVveaIYmDSTazhT3y273.jpg
+797271,Counterattack,Action|Mystery|Thriller,2021-02-15,https://image.tmdb.org/t/p/original/ayoqy3twWdKvUvbolbfoJToxUfl.jpg
+285,Pirates of the Caribbean: At World's End,Adventure|Fantasy|Action,2007-05-19,https://image.tmdb.org/t/p/original/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg
+299534,Avengers: Endgame,Adventure|Science Fiction|Action,2019-04-24,https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg
+293660,Deadpool,Action|Adventure|Comedy,2016-02-09,https://image.tmdb.org/t/p/original/fSRb7vyIP8rQpL0I47P3qUsEKX3.jpg
+1232289,Society of the Snow: Who Were We on the Mountain?,Documentary,2024-01-23,https://image.tmdb.org/t/p/original/6TGDsFSSi0dvpcwZsjUj6LxtPY2.jpg
+840430,The Holdovers,Comedy|Drama,2023-10-27,https://image.tmdb.org/t/p/original/VHSzNBTwxV8vh7wylo7O9CLdac.jpg
