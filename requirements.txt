@@ -1,0 +1,9 @@
+pandas
+python-dotenv
+pyodbc
+apache-airflow
+fast_api
+pyodbc
+bcrypt
+jose
+python-jose
