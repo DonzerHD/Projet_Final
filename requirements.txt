@@ -2,8 +2,12 @@ pandas
 python-dotenv
 pyodbc
 apache-airflow
-fast_api
+fastapi
 pyodbc
 bcrypt
 jose
 python-jose
+jwt
+scikit-learn
+sqlalchemy
+uvicorn

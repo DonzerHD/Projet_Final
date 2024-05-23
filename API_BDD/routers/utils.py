@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 from jose import JWTError
 from fastapi import Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
-from ..database import get_db_connection  # Assurez-vous que ce chemin d'importation est correct
+from database import get_db_connection  # Assurez-vous que ce chemin d'importation est correct
 
 # Le chemin vers l'endpoint de connexion pour obtenir un nouveau jeton
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="users/login")

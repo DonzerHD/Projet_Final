@@ -1,11 +1,10 @@
 # routers/user.py
 from fastapi import APIRouter, Depends, HTTPException, Body , status
 from sqlalchemy.orm import Session
-from ..database import get_db_connection
+from database import get_db_connection
 from .utils import generate_new_user_id , get_password_hash , verify_password, create_access_token, get_current_user
 from jose import JWTError
-from fastapi.security import OAuth2PasswordBearer
-from ..database import get_db_connection 
+from fastapi.security import OAuth2PasswordBearer 
 from typing import Optional
 
 router = APIRouter()
@@ -48,7 +47,6 @@ def login_for_access_token(pseudo: str = Body(...), password: str = Body(...), d
     return {"access_token": access_token, "token_type": "bearer"}
 
 
-@router.put("/users/update/{user_id}")
 @router.put("/users/update/{user_id}")
 def update_user(
     user_id: int,
