@@ -30,6 +30,23 @@ def recommend(user_id: int, db: Session = Depends(get_db_connection), token: str
     current_user = get_current_user(token, db)
     if current_user['user_id'] != user_id:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not authorized to view recommendations for this user")
+    
     favorite_movie_titles = get_user_favorite_movies(user_id, db)
+    
     recommendations = get_recommendations(favorite_movie_titles)
-    return recommendations[['title', 'genres']].to_dict(orient="records")
+    
+    recommended_movies = []
+    for _, row in recommendations.iterrows():
+        movie_info = db.execute(
+            "SELECT movie_id, title, release_date, poster_link FROM appmovieschema.Movie_Table WHERE title = ?",
+            (row['title'],)
+        ).fetchone()
+        if movie_info:
+            recommended_movies.append({
+                "movie_id": movie_info.movie_id,
+                "title": movie_info.title,
+                "release_date": movie_info.release_date,
+                "poster_link": movie_info.poster_link
+            })
+    
+    return recommended_movies

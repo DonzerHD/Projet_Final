@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Recommendations{% endblock %}
+
+{% block content %}
+    <h1>Recommended Movies</h1>
+    <div class="row">
+        {% for movie in recommendations %}
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="{{ movie.poster_link }}" class="card-img-top" alt="{{ movie.title }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ movie.title }}</h5>
+                        <p class="card-text">Release Date: {{ movie.release_date }}</p>
+                        <a href="{% url 'add_favorite_movie' movie.movie_id %}" class="btn btn-primary">Add to Favorites</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -11,3 +11,4 @@ jwt
 scikit-learn
 sqlalchemy
 uvicorn
+django

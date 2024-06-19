@@ -12,6 +12,15 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 @router.post("/users/create")
 def create_user(pseudo: str = Body(...), email: str = Body(...), password: str = Body(...), db: Session = Depends(get_db_connection)):
+    # Vérifier l'unicité du pseudo et de l'email
+    existing_user = db.execute(
+        "SELECT * FROM appmovieschema.User_Table WHERE pseudo = ? OR email = ?",
+        (pseudo, email)
+    ).fetchone()
+    
+    if existing_user:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username or email already exists")
+    
     # Générer un nouvel ID utilisateur et hacher le mot de passe
     new_id = generate_new_user_id(db)
     hashed_password = get_password_hash(password)
@@ -25,7 +34,6 @@ def create_user(pseudo: str = Body(...), email: str = Body(...), password: str =
 
     # Retourner les informations de l'utilisateur, sauf le mot de passe
     return {"user_id": new_id, "pseudo": pseudo, "email": email}
-
 
 @router.post("/users/login")
 def login_for_access_token(pseudo: str = Body(...), password: str = Body(...), db: Session = Depends(get_db_connection)):
@@ -45,7 +53,6 @@ def login_for_access_token(pseudo: str = Body(...), password: str = Body(...), d
     
     # Retourner le token d'accès
     return {"access_token": access_token, "token_type": "bearer"}
-
 
 @router.put("/users/update/{user_id}")
 def update_user(
