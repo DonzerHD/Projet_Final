@@ -1,0 +1,27 @@
+<!-- templates/movies/favorites.html -->
+{% extends "base.html" %}
+
+{% block title %}Mes films vues{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1>Mes films vues</h1>
+    <div class="row mt-4">
+        {% for movie in favorite_movies %}
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="{{ movie.poster_link }}" class="card-img-top" alt="{{ movie.title }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ movie.title }}</h5>
+                        <p class="card-text">{{ movie.release_date }}</p>
+                        <form method="POST" action="{% url 'remove_favorite_movie' movie.movie_id %}">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-danger">Retirer des vues</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

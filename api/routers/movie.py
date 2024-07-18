@@ -59,3 +59,26 @@ def search_movies(query: str, db: Session = Depends(get_db_connection)):
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No movies found matching the query")
 
     return [{"movie_id": row.movie_id, "title": row.title, "release_date": row.release_date, "poster_link": row.poster_link} for row in result]
+
+@router.get("/movies/random")
+def get_random_movies(db: Session = Depends(get_db_connection)):
+    result = db.execute(
+        "SELECT movie_id, title, release_date, poster_link FROM appmovieschema.Movie_Table ORDER BY NEWID() OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY"
+    ).fetchall()
+
+    return [{"movie_id": row.movie_id, "title": row.title, "release_date": row.release_date, "poster_link": row.poster_link} for row in result]
+
+
+@router.delete("/movies/remove_favorite/{movie_id}")
+def remove_favorite_movie(movie_id: int, db: Session = Depends(get_db_connection), token: str = Depends(oauth2_scheme)):
+    current_user = get_current_user(token, db)
+    user_id = current_user['user_id']
+
+    # Supprimer le film des favoris de l'utilisateur
+    db.execute(
+        "DELETE FROM appmovieschema.UserMovieList_Table WHERE user_id = ? AND movie_id = ?",
+        (user_id, movie_id)
+    )
+    db.commit()
+
+    return {"message": "Movie removed from favorites"}

@@ -5,7 +5,10 @@ import requests
 API_BASE_URL = "http://127.0.0.1:8000"  # URL de base de l'API FastAPI
 
 def home(request):
+    token = request.session.get('token')
+    print("Token in session:", token)  # Message de debug
     return render(request, 'home.html')
+
 
 def login_view(request):
     if request.method == 'POST':
@@ -16,11 +19,13 @@ def login_view(request):
         if response.status_code == 200:
             token = response.json().get("access_token")
             request.session['token'] = token  # Stocker le token dans la session
+            print("Token:", token)  # Message de debug
             return redirect('home')
         else:
             return render(request, 'login.html', {'error': 'Invalid credentials'})
     
     return render(request, 'login.html')
+
 
 def create_user(request):
     if request.method == 'POST':

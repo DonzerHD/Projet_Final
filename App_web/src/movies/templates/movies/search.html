@@ -1,31 +1,37 @@
-{% extends 'base.html' %}
+<!-- templates/movies/search.html -->
+{% extends "base.html" %}
 
 {% block title %}Search Movies{% endblock %}
 
 {% block content %}
-<h1>Search Movies</h1>
-<form method="get" action="{% url 'search_movies' %}">
-    <div class="form-group">
-        <input type="text" class="form-control" name="query" placeholder="Search for a movie..." value="{{ query }}">
-    </div>
-    <button type="submit" class="btn btn-primary">Search</button>
-</form>
-
-{% if movies %}
-    <h2>Results</h2>
-    <div class="row">
+<div class="container mt-4">
+    <h1>Search Movies</h1>
+    <form method="GET" action="{% url 'search_movies' %}">
+        <div class="form-group">
+            <input type="text" name="query" class="form-control" placeholder="Search for a movie...">
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+    <div class="row mt-4">
         {% for movie in movies %}
-            <div class="col-md-3">
+            <div class="col-md-3 mb-4">
                 <div class="card">
                     <img src="{{ movie.poster_link }}" class="card-img-top" alt="{{ movie.title }}">
                     <div class="card-body">
                         <h5 class="card-title">{{ movie.title }}</h5>
                         <p class="card-text">{{ movie.release_date }}</p>
-                        <a href="{% url 'add_favorite_movie' movie.movie_id %}" class="btn btn-warning">Add to Favorites</a>
+                        {% if movie.movie_id in favorite_movie_ids %}
+                            <button class="btn btn-primary" disabled>Déjà vu</button>
+                        {% else %}
+                            <form method="POST" action="{% url 'add_favorite_movie' movie.movie_id %}">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-success">Ajouter aux vus</button>
+                            </form>
+                        {% endif %}
                     </div>
                 </div>
             </div>
         {% endfor %}
     </div>
-{% endif %}
+</div>
 {% endblock %}

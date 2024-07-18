@@ -49,7 +49,7 @@ def login_for_access_token(pseudo: str = Body(...), password: str = Body(...), d
         )
     
     # Créer un token d'accès JWT pour l'utilisateur
-    access_token = create_access_token(data={"sub": user.email})
+    access_token = create_access_token(data={"sub": user.email, "user_id": user.user_id})
     
     # Retourner le token d'accès
     return {"access_token": access_token, "token_type": "bearer"}

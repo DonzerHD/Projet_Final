@@ -1,3 +1,4 @@
+<!-- base.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +18,9 @@
                 {% if request.session.token %}
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'search_movies' %}">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'favorite_movies' %}">Mes films vues</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'recommend_movies' %}">Recommendations</a>

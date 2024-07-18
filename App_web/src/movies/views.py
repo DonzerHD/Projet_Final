@@ -24,13 +24,29 @@ def search_movies(request):
     
     query = request.GET.get('query')
     movies = []
+    token = request.session.get('token')
+    headers = {'Authorization': f'Bearer {token}'}
+    
     if query:
-        token = request.session.get('token')
-        headers = {'Authorization': f'Bearer {token}'}
         response = requests.get(f"{API_BASE_URL}/movies/search", params={'query': query}, headers=headers)
-        if response.status_code == 200:
-            movies = response.json()
-    return render(request, 'movies/search.html', {'movies': movies, 'query': query})
+    else:
+        response = requests.get(f"{API_BASE_URL}/movies/random", headers=headers)
+    
+    if response.status_code == 200:
+        movies = response.json()
+    
+    # Récupérer les films favoris de l'utilisateur
+    favorite_movies = get_user_favorite_movies_from_api(token)
+    favorite_movie_ids = [movie['movie_id'] for movie in favorite_movies]
+
+    return render(request, 'movies/search.html', {'movies': movies, 'query': query, 'favorite_movie_ids': favorite_movie_ids})
+
+def get_user_favorite_movies_from_api(token):
+    headers = {'Authorization': f'Bearer {token}'}
+    response = requests.get(f"{API_BASE_URL}/movies/favorites", headers=headers)
+    if response.status_code == 200:
+        return response.json()
+    return []
 
 def add_favorite_movie(request, movie_id):
     if 'token' not in request.session:
@@ -65,3 +81,31 @@ def recommend_movies(request):
         recommendations = []
     
     return render(request, 'movies/recommend.html', {'recommendations': recommendations})
+
+
+def favorite_movies(request):
+    if 'token' not in request.session:
+        return redirect('login')
+
+    token = request.session.get('token')
+    headers = {'Authorization': f'Bearer {token}'}
+    
+    response = requests.get(f"{API_BASE_URL}/movies/favorites", headers=headers)
+    
+    if response.status_code == 200:
+        favorite_movies = response.json()
+    else:
+        favorite_movies = []
+    
+    return render(request, 'movies/favorites.html', {'favorite_movies': favorite_movies})
+
+def remove_favorite_movie(request, movie_id):
+    if 'token' not in request.session:
+        return redirect('login')
+
+    token = request.session.get('token')
+    headers = {'Authorization': f'Bearer {token}'}
+    
+    response = requests.delete(f"{API_BASE_URL}/movies/remove_favorite/{movie_id}", headers=headers)
+    
+    return redirect('favorite_movies')
