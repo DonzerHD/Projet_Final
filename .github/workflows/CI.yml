@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - develop
+  pull_request:
+    branches:
+      - develop
 
 jobs:
   test:
@@ -15,6 +18,7 @@ jobs:
       DB_USER: ${{ secrets.DB_USER }}
       DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
       DB_DRIVER: ${{ secrets.DB_DRIVER }}
+      USE_MEMORY_DB: ${{ secrets.USE_MEMORY_DB }}  # Utilisation de la base de données en mémoire pour les tests
 
     steps:
       - name: Checkout code
@@ -40,4 +44,4 @@ jobs:
       - name: Run tests
         run: |
           export PYTHONPATH=$(pwd)
-          python -m pytest
+          pytest api/test --maxfail=1 --disable-warnings -v
