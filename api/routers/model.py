@@ -1,14 +1,19 @@
+# api/routers/model.py
+import os
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 import pandas as pd
 import pickle
-from database import get_db_connection
-from .utils import get_user_favorite_movies, get_current_user, oauth2_scheme
+from api.database import get_db_connection
+from api.routers.utils import get_user_favorite_movies, get_current_user, oauth2_scheme
 
 router = APIRouter()
 
+# Définir le chemin absolu du fichier de modèle
+model_file_path = os.path.join(os.path.dirname(__file__), '..', 'movie_recommendation_model.pkl')
+
 # Charger le modèle sauvegardé (modèle de recommandation de films)
-with open("movie_recommendation_model.pkl", "rb") as f:
+with open(model_file_path, "rb") as f:
     model_data = pickle.load(f)
 
 # Extraire les données du modèle
@@ -42,4 +47,3 @@ def recommend(user_id: int, db: Session = Depends(get_db_connection), token: str
     ).fetchall()
     
     return [{"movie_id": row.movie_id, "title": row.title, "release_date": row.release_date, "poster_link": row.poster_link} for row in movie_details]
-

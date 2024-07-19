@@ -1,5 +1,7 @@
+# main.py
+
 from fastapi import FastAPI
-from routers import user, model, movie  # Ajoutez le module movie
+from api.routers import user, model, movie  # Utiliser des imports absolus
 
 app = FastAPI()
 

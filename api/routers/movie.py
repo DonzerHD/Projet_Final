@@ -1,7 +1,10 @@
+# api/routers/movie.py
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
-from database import get_db_connection
-from .utils import get_current_user, oauth2_scheme
+from api.database import get_db_connection  # Utiliser des imports absolus
+from api.routers.utils import get_current_user, oauth2_scheme
+
+router = APIRouter()
 
 router = APIRouter()
 
