@@ -67,3 +67,12 @@ def get_user_favorite_movies(user_id: int, db: Session):
     """
     result = db.execute(query, (user_id,)).fetchall()
     return [row.title for row in result]
+
+def decode_access_token(token: str):
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+        return payload
+    except jwt.ExpiredSignatureError:
+        return None
+    except jwt.InvalidTokenError:
+        return None

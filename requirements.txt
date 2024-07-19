@@ -15,3 +15,4 @@ django
 pytest-mock
 pytest
 python-jose[cryptography]
+bcrypt

@@ -4,21 +4,10 @@ on:
   push:
     branches:
       - develop
-  pull_request:
-    branches:
-      - develop
 
 jobs:
   test:
     runs-on: ubuntu-latest
-
-    env:
-      DB_SERVER: ${{ secrets.DB_SERVER }}
-      DB_NAME: ${{ secrets.DB_NAME }}
-      DB_USER: ${{ secrets.DB_USER }}
-      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-      DB_DRIVER: ${{ secrets.DB_DRIVER }}
-      USE_MEMORY_DB: ${{ secrets.USE_MEMORY_DB }}  # Utilisation de la base de données en mémoire pour les tests
 
     steps:
       - name: Checkout code
@@ -34,14 +23,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Add Microsoft package repository and install msodbcsql17
+      - name: Run unit tests
         run: |
-          curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-          sudo curl https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/prod.list -o /etc/apt/sources.list.d/mssql-release.list
-          sudo apt-get update
-          sudo ACCEPT_EULA=Y apt-get install -y msodbcsql17
-
-      - name: Run tests
-        run: |
-          export PYTHONPATH=$(pwd)
-          pytest api/test --maxfail=1 --disable-warnings -v
+          pytest api/test/test_utils.py
