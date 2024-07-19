@@ -12,3 +12,5 @@ scikit-learn
 sqlalchemy
 uvicorn
 django
+pytest-mock
+pytest
