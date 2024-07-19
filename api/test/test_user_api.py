@@ -19,7 +19,7 @@ def test_create_user(test_db_connection):
         "email": "test@example.com",
         "password": "password123"
     })
-    assert response.status_code == 200
+    assert response.status_code == 200, response.text
     data = response.json()
     assert "user_id" in data
     assert data["pseudo"] == "testuser"
