@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 import requests
 
-API_BASE_URL = "http://127.0.0.1:8000"  # URL de base de l'API FastAPI
+API_BASE_URL = "http://fastapi-container:8000"  # URL de base de l'API FastAPI
 
 import jwt
 
@@ -59,8 +59,6 @@ def add_favorite_movie(request, movie_id):
         return redirect(request.META.get('HTTP_REFERER', 'search_movies'))
     else:
         return render(request, 'movies/search.html', {'error': 'Could not add movie to favorites.'})
-    
-API_BASE_URL = "http://127.0.0.1:8000"  # URL de base de l'API FastAPI
 
 def recommend_movies(request):
     if 'token' not in request.session:

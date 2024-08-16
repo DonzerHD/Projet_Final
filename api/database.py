@@ -14,6 +14,12 @@ driver = os.getenv('DB_DRIVER')
 
 def get_db_connection():
         # Connexion à la vraie base de données
+        
+    print("connection")
+    print(driver)
+    print(username)
+    print(server)
+    
     conn = pyodbc.connect(
         f"DRIVER={driver};"
         f"SERVER={server};"

@@ -1,0 +1,51 @@
+name: Build and Push Docker Images
+
+on:
+  push:
+    branches:
+      - develop  # Déclencher l'action seulement pour les pushes sur la branche "develop"
+
+jobs:
+  build_and_push_fastapi:
+    name: Build and Push FastAPI Image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v2
+      
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Log in to DockerHub
+        run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
+
+      - name: Build FastAPI Docker image
+        run: |
+          docker build -t thomas59/fastapi-app:latest ./api  # Remplacer par le bon chemin de FastAPI (répertoire `api`)
+
+      - name: Push FastAPI image to DockerHub
+        run: |
+          docker push thomas59/fastapi-app:latest
+
+  build_and_push_django:
+    name: Build and Push Django Image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Log in to DockerHub
+        run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
+
+      - name: Build Django Docker image
+        run: |
+          docker build -t thomas59/django-app:latest ./App_web/src  # Remplacer par le bon chemin de Django (répertoire `App_web/src`)
+
+      - name: Push Django image to DockerHub
+        run: |
+          docker push thomas59/django-app:latest
