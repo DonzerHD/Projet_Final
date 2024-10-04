@@ -1,5 +1,5 @@
 import pytest
-from api.routers.utils import get_password_hash, verify_password
+from routers.utils import get_password_hash, verify_password
 
 def test_get_password_hash():
     password = "testpassword"

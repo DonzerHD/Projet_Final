@@ -10,14 +10,17 @@ RUN apt-get update && apt-get install -y curl apt-transport-https gnupg2 && \
 # Définir le répertoire de travail à l'intérieur du conteneur
 WORKDIR /app
 
-# Copier les fichiers de l'application dans un sous-dossier "api"
-COPY . /app/api
-
-# Copier les fichiers de dépendances dans le conteneur
-COPY requirements.txt /app/requirements.txt
+# Copier les fichiers de l'application dans le répertoire de travail
+COPY . /app
 
 # Installer les dépendances Python
-RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-# Définir la commande de démarrage avec FastAPI dans le sous-dossier "api"
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+# Ajouter /app au PYTHONPATH
+ENV PYTHONPATH="/app"
+
+# Exposer le port que l'application utilisera
+EXPOSE 8000
+
+# Définir la commande de démarrage avec Uvicorn
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

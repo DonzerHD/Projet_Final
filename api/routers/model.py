@@ -4,8 +4,8 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 import pandas as pd
 import pickle
-from api.database import get_db_connection
-from api.routers.utils import get_user_favorite_movies, get_current_user, oauth2_scheme
+from database import get_db_connection
+from routers.utils import get_user_favorite_movies, get_current_user, oauth2_scheme
 
 router = APIRouter()
 
