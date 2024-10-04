@@ -29,8 +29,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'django-app-web-aee2d8c2e4etg5aa.westeurope-01.azurewebsites.net',
-    '13.69.68.38',  # Adresse IP publique
-    '127.0.0.1',    # Adresse locale (loopback)
+    '13.69.68.38',
+    '127.0.0.1',
+    '127.0.0.1:7195',  # Ajoutez cette ligne
 ]
 CSRF_TRUSTED_ORIGINS = [
     'https://django-app-web-aee2d8c2e4etg5aa.westeurope-01.azurewebsites.net',
