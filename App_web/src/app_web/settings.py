@@ -29,6 +29,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['django-app-web-aee2d8c2e4etg5aa.westeurope-01.azurewebsites.net']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://django-app-web-aee2d8c2e4etg5aa.westeurope-01.azurewebsites.net',
+    # Ajoutez d'autres domaines si nécessaire
+]
+
 
 # Application definition
 
