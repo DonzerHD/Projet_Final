@@ -27,8 +27,11 @@ SECRET_KEY = 'django-insecure-2c=g4!6w0hwus!(1827%nu_%dt$*8)hwx7&uy0akc=m7rlkanz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-app-web-aee2d8c2e4etg5aa.westeurope-01.azurewebsites.net']
-
+ALLOWED_HOSTS = [
+    'django-app-web-aee2d8c2e4etg5aa.westeurope-01.azurewebsites.net',
+    '13.69.68.38',  # Adresse IP publique
+    '127.0.0.1',    # Adresse locale (loopback)
+]
 CSRF_TRUSTED_ORIGINS = [
     'https://django-app-web-aee2d8c2e4etg5aa.westeurope-01.azurewebsites.net',
     # Ajoutez d'autres domaines si nécessaire
