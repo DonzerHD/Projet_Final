@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 import requests
 
-API_BASE_URL = "https://3c5a-2a01-cb0c-1096-a600-3638-47b5-4624-2e02.ngrok-free.app/"  # URL de base de l'API FastAPI
+API_BASE_URL = "https://4c4d-2a01-cb0c-1096-a600-3638-47b5-4624-2e02.ngrok-free.app/"  # URL de base de l'API FastAPI
 
 import jwt
 
