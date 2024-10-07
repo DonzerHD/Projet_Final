@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 import requests
 
-API_BASE_URL = "https://4c4d-2a01-cb0c-1096-a600-3638-47b5-4624-2e02.ngrok-free.app/"  # URL de base de l'API FastAPI
+API_BASE_URL = "https://885c-2a01-cb0c-1096-a600-7e03-33c1-5bc5-4cc5.ngrok-free.app"  # URL de base de l'API FastAPI
 
 import jwt
 
@@ -107,3 +107,45 @@ def remove_favorite_movie(request, movie_id):
     response = requests.delete(f"{API_BASE_URL}/movies/remove_favorite/{movie_id}", headers=headers)
     
     return redirect('favorite_movies')
+
+import os
+import openai
+from dotenv import load_dotenv
+from django.utils.safestring import mark_safe
+
+# Charger les variables d'environnement depuis .env
+load_dotenv()
+
+# Récupérer la clé API OpenAI à partir du fichier .env
+openai.api_key = os.getenv('OPENAI_KEY')
+
+def generate_movie_scenario(request):
+    movie_scenario = None  # Aucune génération de scénario par défaut
+
+    if request.method == "POST":
+        # Récupérer les détails du formulaire
+        title = request.POST.get('title')
+        genre = request.POST.get('genre')
+        description = request.POST.get('description')
+
+        # Utiliser GPT-3.5-turbo ou GPT-4 pour générer un scénario
+        try:
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",  # Ou "gpt-4" si disponible
+                messages=[
+                    {"role": "system", "content": "Tu es un assistant utile."},
+                    {"role": "user", "content": f"Crée un scénario de film avec le titre '{title}', le genre '{genre}', et la description '{description}'."}
+                ],
+                max_tokens=500
+            )
+
+            # Extraire et formater le scénario généré
+            movie_scenario = response['choices'][0]['message']['content']
+            movie_scenario = mark_safe(movie_scenario.replace("\n", "<br>"))  # Remplacer les retours à la ligne par <br> pour l'affichage HTML
+
+        except Exception as e:
+            print(f"Erreur avec l'API OpenAI : {e}")
+            movie_scenario = "Une erreur est survenue lors de la génération du scénario."
+
+    # Rendre la page HTML avec le scénario généré
+    return render(request, 'movies/generate_scenario.html', {'scenario': movie_scenario})

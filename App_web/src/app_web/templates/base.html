@@ -17,6 +17,9 @@
             <ul class="navbar-nav ml-auto">
                 {% if request.session.token %}
                     <li class="nav-item">
+                    <a class="nav-link" href="{% url 'generate_movie_scenario' %}">generate movie scenario</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'search_movies' %}">Search</a>
                     </li>
                     <li class="nav-item">

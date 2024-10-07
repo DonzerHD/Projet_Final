@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Créer un Scénario de Film{% endblock %}
+
+{% block content %}
+    <h1>Créer votre Scénario de Film</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="title">Titre du film :</label>
+            <input type="text" id="title" name="title" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="genre">Genre du film :</label>
+            <input type="text" id="genre" name="genre" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Description :</label>
+            <textarea id="description" name="description" class="form-control" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Générer Scénario</button>
+    </form>
+
+    {% if scenario %}
+        <hr>
+        <h2>Scénario généré</h2>
+        <p>{{ scenario|safe }}</p>  <!-- Utilisation de safe pour l'affichage HTML -->
+    {% endif %}
+{% endblock %}

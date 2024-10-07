@@ -17,3 +17,6 @@ pytest
 python-jose[cryptography]
 bcrypt
 gunicorn
+openai==0.28
+requests
+django

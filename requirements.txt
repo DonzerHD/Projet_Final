@@ -7,7 +7,7 @@ pyodbc
 bcrypt
 jose
 python-jose
-jwt
+PyJWT==2.0.1
 scikit-learn
 sqlalchemy
 uvicorn
@@ -16,3 +16,5 @@ pytest-mock
 pytest
 python-jose[cryptography]
 bcrypt
+gunicorn
+openai==0.28
