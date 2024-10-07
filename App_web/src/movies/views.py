@@ -128,10 +128,9 @@ def generate_movie_scenario(request):
         genre = request.POST.get('genre')
         description = request.POST.get('description')
 
-        # Utiliser GPT-3.5-turbo ou GPT-4 pour générer un scénario
         try:
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",  # Ou "gpt-4" si disponible
+                model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": "Tu es un assistant utile."},
                     {"role": "user", "content": f"Crée un scénario de film avec le titre '{title}', le genre '{genre}', et la description '{description}'."}
